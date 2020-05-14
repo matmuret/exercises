@@ -6,7 +6,7 @@ console.log((4.75 * 4) + " cm");
 console.log((5 + 6 + 7) + " cm");
 console.log((5 * 5) + "  cm");
 let p = ((5 + 6 + 7) / 2);
-let p2 = (p * ((p - 5) * (p - 6) * (p - 7)));
+let p2 = Math.sqrt((p * ((p - 5) * (p - 6) * (p - 7)));
 console.log(p2 * p2);
 console.log((9 * 9 * 9) + " cm");
 
