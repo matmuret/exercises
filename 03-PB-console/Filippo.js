@@ -10,4 +10,4 @@ let telephone="111111";
 let work="walker";
 let sex="No Gender";
 console.log(city,address,telephone,work,sex)
-console.log(firstName, secondName + " lives in " + city + "in" + ", he is a " + address + " strett" + work + ", his telephone number is " + telephone + " and he has "+ sex)
+console.log(firstName, secondName + " lives in " + city +  ", he is a " + address + " strett " + work + ", his telephone number is " + telephone + " and he has "+ sex +".")
