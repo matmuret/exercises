@@ -9,6 +9,8 @@ let p = ((5 + 6 + 7) / 2);
 let p2 = (p * ((p - 5) * (p - 6) * (p - 7)));
 console.log(p2 * p2);
 console.log((9 * 9 * 9) + " cm");
+
+//I cant find how to make the euro sign
 console.log(((22.35 * 100) / 10) + 22.35);
 console.log(((26.67 * 100) / 15) + 26.67);
 console.log(((35.92 * 100) / 20) + 35.92);
