@@ -1,9 +1,11 @@
 "use strict";
 //1
-let isDog;
+let isDog = true;
 console.log(isDog === true ? "pat, pat" : "find me a dog to pat");
 //or
 isDog === true ? console.log("pat, pat") : console.log("find me a dog to pat");
+//or
+let answer= isDog ? ("pat, pat"):("find me a dog to pat")
 //or
 if (isDog === true) {
     isDog === 'pat, pat';
@@ -12,10 +14,11 @@ if (isDog === true) {
 }
 console.log(isDog);
 //2
-let speedCheck;
-console.log(speedCheck > 50 ? "you're going too fast!" : "You're driving below the speed limit, Oma");
+let speedlimit = 50;
+let speedCheck= 80;
+console.log(speedCheck > speedlimit ? "you're going too fast!" : "You're driving below the speed limit, Oma");
 //or
-speedCheck > 50 ? console.log("you're going too fast!") : console.log("You're driving below the speed limit, Oma")
+let HowFast= speedCheck > speedlimit ? console.log("you're going too fast!") : console.log("You're driving below the speed limit, Oma")
 //or
 if (speedCheck > 50) {
     speedCheck === "you're going too fast!"
