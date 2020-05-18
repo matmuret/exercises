@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let x = 10;
 console.log(x, typeof(x));
 let y = 20;
@@ -23,7 +23,7 @@ console.log(--b)
 let d = (b-a);
 console.log(d+c);
 console.log(resultOne % resultTwo);
-=======
+
 // 0.
 let x = 6;
 console.log(x, typeof x);
@@ -74,4 +74,4 @@ console.log(d + c);
 
 // 11.
 console.log(resultOne % resultTwo);
->>>>>>> 2b144e551a9dffbf5d09cf3e123c1b016f750e5b
+
