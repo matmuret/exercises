@@ -11,10 +11,12 @@ let age = (60);
 let year = (1960);
 //6
 console.log(`${name} is ${age} in ${year}`);
+let isMarried = true;
+console.log(`${name} is married:${isMarried}`)
 //7
 let programmingLanguage = "JavaScript";
 //8
-let isFun = "true";
+let isFun = true;
 //9
 console.log(`${programmingLanguage} is fun: ${isFun}`)
 //10
