@@ -10,7 +10,7 @@ if (isDog === true) {
 } else {
     isDog === 'find me a dog to pat';
 }
-console.log(isDog)
+console.log(isDog);
 //2
 let speedCheck;
 console.log(speedCheck > 50 ? "you're going too fast!" : "You're driving below the speed limit, Oma");
@@ -22,7 +22,7 @@ if (speedCheck > 50) {
 } else {
     speedCheck === "You're driving below the speed limit, Oma"
 }
-console.log(speedCheck)
+console.log(speedCheck);
 //3
 let age;
 console.log(age < 16 ? "serve butter beer" : "serve beer");
@@ -34,7 +34,7 @@ if (age < 16) {
 } else {
     age === "serve beer"
 }
-console.log(age)
+console.log(age);
 //4
 let isStudent;
 console.log(isStudent === true ? "Ticket costs €5,00" : "Ticket costs €12,00");
@@ -46,7 +46,7 @@ if (isStudent === true) {
 } else {
     isStudent === "Ticket costs €12,00"
 }
-console.log(isStudent)
+console.log(isStudent);
 //5
 let okMarie;
 let cake
@@ -59,4 +59,4 @@ if (okMarie === cake) {
 } else {
     okMarie === "Oh, bother"
 }
-console.log(okMarie)
+console.log(okMarie);
