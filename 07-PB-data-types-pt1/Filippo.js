@@ -9,14 +9,15 @@ let name = "ciaone";
 let age = (60);
 //5
 let year = (1960);
-console.log(`${name} is ${age} in ${year}`);
 //6
-let programmingLanguage = "JavaScript";
+console.log(`${name} is ${age} in ${year}`);
 //7
-let isFun = "true";
+let programmingLanguage = "JavaScript";
 //8
-console.log(`${programmingLanguage} is fun: ${isFun}`)
+let isFun = "true";
 //9
-console.log(programmingLanguage[programmingLanguage.length - 10],programmingLanguage[programmingLanguage.length - 6])
+console.log(`${programmingLanguage} is fun: ${isFun}`)
 //10
+console.log(programmingLanguage[programmingLanguage.length - 10],programmingLanguage[programmingLanguage.length - 6])
+//11
 console.log(programmingLanguage.length);
