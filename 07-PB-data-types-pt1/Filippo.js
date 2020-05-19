@@ -2,13 +2,13 @@
 let filippo = "Filippo";
 console.log(filippo);
 //2
-console.log(filippo[filippo.length - 6],filippo[filippo.length - 2])
+console.log(filippo[6],filippo[2])
 //3
 let name = "ciaone";
 //4
-let age = (60);
+let age = 60;
 //5
-let year = (1960);
+let year = 1960;
 //6
 console.log(`${name} is ${age} in ${year}`);
 let isMarried = true;

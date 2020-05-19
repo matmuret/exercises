@@ -8,12 +8,12 @@ console.log(firstVar.substring(18, 22));
 //2
 let secondVar = "Hello World";
 console.log(secondVar);
-secondVar = secondVar.toLocaleUpperCase();
+secondVar = secondVar.toUpperCase();
 console.log(secondVar);
 
 //3
 let thirdVar = "Hello Earthling";
-thirdVar = thirdVar.toLocaleLowerCase();
+thirdVar = thirdVar.toLowerCase();
 console.log(thirdVar);
 
 //4
@@ -38,7 +38,7 @@ console.log(seventhVar.substring(4) + seventhVar + seventhVar.substring(4));
 
 //8
 let eighthVar = "BoogieWoogie"
-console.log(eighthVar[11] + eighthVar.substring(1, 11) + eighthVar[0]);
+console.log( eightVar[eightVar.length-1] + eighthVar.substring(1, 11) + eighthVar[0]);
 
 //9
 let name = "Filippo";
