@@ -27,3 +27,4 @@ console.log(Math.floor(roundMeDownFive));
 //3
 let random=Math.round(Math.random() * 5 + 1);//Math.round goes until 6; +1 in order to start from 1
 console.log(random);
+is
