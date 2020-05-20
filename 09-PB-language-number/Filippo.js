@@ -4,8 +4,7 @@
 let firstVar = "hello, my name is Fran and I am";
 let age =
  25;
-let anotherVar= fifthVan + "" + age;
-console.log(anotherVar)
+
 console.log(`${firstVar} ${age}`); //in this way the operator combines the two variables together.
 
 //2
