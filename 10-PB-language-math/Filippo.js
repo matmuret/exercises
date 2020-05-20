@@ -16,16 +16,12 @@ console.log(Math.ceil(roundMeUpFour));
 console.log(Math.ceil(roundMeUpFive));
 
 //2b
-let roundMeDownOne=3321.32321;
-let roundMeDownTwo=326.76;
-let roundMeDownThree=76788.7;
-let roundMeDownFour= -9.78;
 let roundMeDownFive=28.329;
 
-console.log(Math.floor(roundMeDownOne));
-console.log(Math.floor(roundMeDownTwo));
-console.log(Math.floor(roundMeDownThree));
-console.log(Math.floor(roundMeDownFour));
+console.log(Math.floor(roundMeUpOne));
+console.log(Math.floor(roundMeUpTwo));
+console.log(Math.floor(roundMeUpThree));
+console.log(Math.floor(roundMeUpFour));
 console.log(Math.floor(roundMeDownFive));
 
 //3
