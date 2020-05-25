@@ -7,7 +7,7 @@ These exercises are aimed at making you familiar with logical operators. **Print
 1. Check the result of:
 
 - a) a AND b. 
-
+a"
 - b) a OR b. 
 
 - c) NOT (a AND b). 
