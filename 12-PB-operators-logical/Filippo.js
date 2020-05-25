@@ -14,8 +14,8 @@ let z = 5;
 
 //3
 console.log("3a", x > z && x > y);
-console.log("3b", x != y);
+console.log("3b", x !== y);
 console.log("3c", z < y || z > x);
-console.log("3d", x === z || x != y);
+console.log("3d", x === z || x !== y);
 console.log("3e", x >= 10 && y <= 10);
 console.log("3f", x * y < 100 || x * y > 100);
