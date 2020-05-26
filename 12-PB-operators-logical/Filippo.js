@@ -1,4 +1,4 @@
-
+"use strict";
 
 //0
 let a = true;

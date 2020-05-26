@@ -1,3 +1,5 @@
+"use strict";
+
 //1
 console.log(3 == "3" ? true : false);
 /*true beacause it compares just the values while the 
