@@ -8,7 +8,7 @@ let johnHeight = 1.75;
 
 //2
 let markBMI = markMass / (marKHeight * marKHeight);
-let johnBMI = johnMass / (johnHeight * 2);
+let johnBMI = johnMass / (johnHeight ** 2);
 console.log(markBMI);
 console.log(johnBMI);
 
