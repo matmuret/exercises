@@ -1,6 +1,6 @@
 # Programming Basics: Conditionals Part 2
 
-Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height). (mass in kg, i.e. 72.5, and height in metres, i.e. 1.65).
+Mark and John are trying to compare their  =BMI (Body Mass Index), which is calculated using the formula: BMI = mass / (height * height). (mass in kg, i.e. 72.5, and height in metres, i.e. 1.65).
 
 1. Store Mark's and John's mass and height in variables.
 
