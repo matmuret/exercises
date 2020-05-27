@@ -3,7 +3,7 @@
 //1
 console.log(3 == "3" ? true : false);
 /*true beacause it compares just the values while the 
-types have to be different.*/
+types can be different.*/
 
 console.log(3 === "3" ? true : false);
 /*false because it compares both the values and the types, 
@@ -17,7 +17,7 @@ not a comparison, its always an assignment = definition! */
 
 //2
 let firstVar = true;
-console.log(!firstVar === true ? true : false);
+console.log(!firstVar ? true : false);
 
 //3
 let firstName, givenName;
@@ -30,4 +30,4 @@ console.log(name);
 while 'firstname' is both declared and assigned,
 that's why when I give the option to assign either 
 'givenName' or 'firstname' to 'name' 'firstName'
-is gonna win.*/  
+is gonna win. So the output is gonna be "Stacey"*/  
