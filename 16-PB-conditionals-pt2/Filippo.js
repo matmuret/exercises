@@ -1,28 +1,35 @@
 "use strict";
 
 //1 
-let MarkMass = 70;
-let JohnMass = 72;
-let MarKHeight = 1.78;
-let JohnHeight = 1.75;
+let markMass = 70;
+let johnMass = 72;
+let marKHeight = 1.78;
+let johnHeight = 1.75;
 
 //2
-let MarkBMI = MarkMass / MarKHeight * MarKHeight;
-let JohnBMI = JohnMass / JohnHeight ** 2;
+let markBMI = markMass / (marKHeight * marKHeight);
+let johnBMI = johnMass / (johnHeight * 2);
+console.log(markBMI);
+console.log(johnBMI);
 
-//3;4
 
+//3
+let markHeiger = markBMI > johnBMI? true:false;
 
-if (MarkBMI > JohnBMI) {
-    let MarkHeiger = `Is Mark's BMI higher than John's one?` + true;
-    console.log(`${MarkHeiger}`)
+//4
+console.log(`Is Mark's BMI higher than John's? Yes,  ${markHeiger}`)
+
+//my personal try to put put everything together
+if (markBMI > johnBMI) {
+    let markHeiger = `Is Mark's BMI higher than John's one? ` + true;
+    console.log(`${markHeiger}`)
 } else {
-    let JohnHeiger = `Is Mark's BMI higher than John's one?` + false;
-    console.log(`${JohnHeiger}`)
+    let johnHeiger = `Is Mark's BMI higher than John's one? ` + false;
+    console.log(`${johnHeiger}`)
 };
 
 //5
-if (MarkBMI > JohnBMI) {
+if (markBMI > johnBMI) {
     console.log(`Mark`)
 } else {
     console.log(`John`);
