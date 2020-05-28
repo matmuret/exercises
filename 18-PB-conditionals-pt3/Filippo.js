@@ -19,28 +19,28 @@ lisAvarage = (106 + 104 + 90) / 3;
 
 if (lisAvarage > aleezaAvarege) {
     console.log(`Lisa's team wins because its scores average is ${lisAvarage.toFixed(2)}
-     which is more than Aleeza's team one ${aleezaAvarege.toFixed(2)} `);
+    which is more than Aleeza's team one ${aleezaAvarege.toFixed(2)} `);
 } else if (lisAvarage === aleezaAvarege) {
     console.log(`Lisa's team and Aleeza's team have the same scores avarege: respectively  ${lisAvarage.toFixed(2)} = ${aleezaAvarege.toFixed(2)}`);
 } else {
     console.log(`Aleeza's team wins because its scores average is ${aleezaAvarege.toFixed(2)}
-     which is more than lisa's team one, ${lisAvarage.toFixed(2)}`);
+    which is more than lisa's team one, ${lisAvarage.toFixed(2)}`);
 }
 
 //1d
 let maryAvarage = (97 + 134 + 105) / 3;
 if (lisAvarage > aleezaAvarege && lisAvarage > maryAvarage) {
     console.log(`Lisa's team wins because its scores average is ${lisAvarage.toFixed(2)}
-     which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and Mary's team one -${maryAvarage.toFixed(2)}-`)
+    which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and Mary's team one -${maryAvarage.toFixed(2)}-`)
 } else if (maryAvarage > lisAvarage && maryAvarage > aleezaAvarege) {
     console.log(`Mary's team wins because its scores average is -${maryAvarage.toFixed(2)}- which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- 
-        and lisa's team one -${lisAvarage.toFixed(2)}-`);
+    and lisa's team one -${lisAvarage.toFixed(2)}-`);
 } else if (aleezaAvarege > lisAvarage && aleezaAvarege > maryAvarage) {
     console.log(`Aleeza's team wins because its scores average is -${aleezaAvarege.toFixed(2)}-
     which is more than Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
 } else {
     console.log(`Aleeza's team scores average is -${aleezaAvarege.toFixed(2)} like 
-        Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
+    Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
 }
 
 //1e 
@@ -50,15 +50,15 @@ lisAvarage = (100 + 90 + 90) / 3;
 
 if (lisAvarage > aleezaAvarege && lisAvarage > maryAvarage) {
     console.log(`Lisa's team wins because its scores average is -${lisAvarage.toFixed(2)}-
-     which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and Mary's team one -${maryAvarage.toFixed(2)}-`)
+    which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and Mary's team one -${maryAvarage.toFixed(2)}-`)
 } else if (maryAvarage > lisAvarage && maryAvarage > aleezaAvarege) {
     console.log(`Mary's team wins because its scores average is -${maryAvarage.toFixed(2)}-
-        which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and lisa's team one -${lisAvarage}-`)
+    which is more than Aleeza's team one -${aleezaAvarege.toFixed(2)}- and lisa's team one -${lisAvarage}-`)
 } else if (aleezaAvarege > lisAvarage && aleezaAvarege > maryAvarage) {
     console.log(`Aleeza's team wins because its scores average is -${aleezaAvarege.toFixed(2)}-
     which is more than Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage}-`)
 
 } else {
     console.log(`Aleeza's team scores average is -${aleezaAvarege.toFixed(2)} like 
-        Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
+    Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
 }
