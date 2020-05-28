@@ -38,10 +38,16 @@ if (lisAvarage > aleezaAvarege && lisAvarage > maryAvarage) {
 } else if (aleezaAvarege > lisAvarage && aleezaAvarege > maryAvarage) {
     console.log(`Aleeza's team wins because its scores average is -${aleezaAvarege.toFixed(2)}-
     which is more than Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
-} else {
+}else if (aleezaAvarege === lisAvarage && aleezaAvarege === maryAvarage){
     console.log(`Aleeza's team scores average is -${aleezaAvarege.toFixed(2)} like 
     Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
-}
+} else if (aleezaAvarege === maryAvarage && aleezaAvarege < lisAvarage){  
+    console.log(`Aleeze and Mary are the winners with the same scores avarege ${maryAvarage.toFixed(2)} while Mary's team scores are just ${lisAvarage.toFixed(2)}`)
+} else if (aleezaAvarege === lisAvarage && aleezaAvarege < maryAvarage){
+    console.log(`Aleeze and Lisa are the winners with the same scores avarege ${aleezaAvarege.toFixed(2)} while Mary's team scores are just ${maryAvarage.toFixed(2)}`
+)}else if (maryAvarage === lisAvarage && aleezaAvarege < aleezaAvarege){
+    console.log(`Mary and Lisa are the winners with the same scores avarege ${maryAvarage.toFixed(2)} while Aleeza's team scores are just ${aleezaAvarege.toFixed(2)}`
+)}
 
 //1e 
 maryAvarage = (80 + 124 + 65) / 3;
@@ -57,8 +63,14 @@ if (lisAvarage > aleezaAvarege && lisAvarage > maryAvarage) {
 } else if (aleezaAvarege > lisAvarage && aleezaAvarege > maryAvarage) {
     console.log(`Aleeza's team wins because its scores average is -${aleezaAvarege.toFixed(2)}-
     which is more than Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage}-`)
-
-} else {
+} else if (aleezaAvarege === lisAvarage && aleezaAvarege === maryAvarage){
     console.log(`Aleeza's team scores average is -${aleezaAvarege.toFixed(2)} like 
     Mary's team one -${maryAvarage.toFixed(2)}- and lisa's team one -${lisAvarage.toFixed(2)}-`)
-}
+} else if (aleezaAvarege === maryAvarage && aleezaAvarege < lisAvarage){  
+    console.log(`Aleeze and Mary are the winners with the same scores avarege ${maryAvarage.toFixed(2)} while Mary's team scores are just ${lisAvarage.toFixed(2)}`)
+} else if (aleezaAvarege === lisAvarage && aleezaAvarege < maryAvarage){
+    console.log(`Aleeze and Lisa are the winners with the same scores avarege ${aleezaAvarege.toFixed(2)} while Mary's team scores are just ${maryAvarage.toFixed(2)}`
+)}else if (maryAvarage === lisAvarage && aleezaAvarege < aleezaAvarege){
+    console.log(`Mary and Lisa are the winners with the same scores avarege ${maryAvarage.toFixed(2)} while Aleeza's team scores are just ${aleezaAvarege.toFixed(2)}`
+)}
+
