@@ -1,10 +1,11 @@
 //1
+let x;
 let determiner = 5;
 if (determiner < 0) {
-    let x = "less than 0";
+    x = "less than 0";
     console.log(x);
 } else {
-    let x = "Greater or equal to 0";
+    x = "Greater or equal to 0";
     console.log(x);
 };
 
@@ -29,6 +30,6 @@ the Block Scope -curly brackets-*/
 
 //4
 /*considering example n2 I couldn't use the ternary option cause we have
-more than one variable depending on just one condition, we can not declare
+more than one statement depending on just one condition, we can not assign
 these variables outside the Block Scope otherwise they wouldn change depending
 on the if/else condition */
