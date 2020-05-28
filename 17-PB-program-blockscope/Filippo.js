@@ -1,24 +1,24 @@
 //1
 let determiner = 5;
 if (determiner < 0) {
-    let x = "less than 0"
-    console.log(x)
+    let x = "less than 0";
+    console.log(x);
 } else {
-    let x = "Greater or equal to 0"
-    console.log(x)
+    let x = "Greater or equal to 0";
+    console.log(x);
 };
 
 
 //2
 if (determiner >= 0) {
-    let updater = "Greater or equal to 0"
-    let message = "Positive Integer"
-    console.log(message)
+    let updater = "Greater or equal to 0";
+    let message = "Positive Integer";
+    console.log(message);
 } else {
-    let message = "Positive Integer"
-    console.log(message)
+    updater = "less than 0";
+    
 };
-
+console.log(updater);
 //3
 console.log(message)
 /*it's not possible to console.log "message" out of
