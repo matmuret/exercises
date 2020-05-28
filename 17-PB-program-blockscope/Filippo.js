@@ -10,12 +10,14 @@ if (determiner < 0) {
 
 
 //2
+let updater;
 if (determiner >= 0) {
-    let updater = "Greater or equal to 0";
+    updater = "Greater or equal to 0";
     let message = "Positive Integer";
     console.log(message);
 } else {
-    updater = "less than 0";
+
+     updater = "less than 0";
     
 };
 console.log(updater);
