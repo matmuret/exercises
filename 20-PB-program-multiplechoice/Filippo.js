@@ -21,10 +21,11 @@ switch (color) {
         colorMeaning = "not found";
 }
 console.log(colorMeaning);
-let gradeComment;
+
 
 //2
 let grade = "A";
+let gradeComment;
 
 switch (grade) {
     case "A":
@@ -70,11 +71,11 @@ console.log(fruitCharacteristic );
 let number = 89
 if (number < 30) {
     console.log("Still a long way to go")
-} else if (number >= 30 && number <= 50) {
+} else if (number <= 50) {
     console.log("Slowly getting there")
-} else if (number > 50 && number <= 80) {
+} else if (number <= 80) {
     console.log("You can do it!")
-} else if (number > 80 && number < 100) {
+} else if (number < 100) {
     console.log("This is the last push!")
 } else {
     console.log("You're there. Well done!")
