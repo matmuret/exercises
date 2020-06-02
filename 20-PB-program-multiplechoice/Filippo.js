@@ -2,66 +2,69 @@
 
 //1
 let color = "red";
+let colorMeaning;
 
 switch (color) {
     case "red":
-        color = "Love!";
+        colorMeaning = "Love!";
         break;
     case "blue":
-        color = "happyness";
+        colorMeaning = "happyness";
         break;
     case "green":
-        color = "haelth";
+        colorMeaning = "haelth";
         break;
     case "yellow":
-        color = "money";
+        colorMeaning = "money";
         break;
     default:
-        color = "not found";
+        colorMeaning = "not found";
 }
-console.log(color);
+console.log(colorMeaning);
+let gradeComment;
 
 //2
 let grade = "A";
 
 switch (grade) {
     case "A":
-        grade = " You're a f*****g breniac";
+        gradeComment = " You're a f*****g breniac";
         break;
     case "B":
-        grade = "good Job";
+        gradeComment  = "good Job";
         break;
     case "C":
-        grade = "You could be better";
+        gradeComment = "You could do better";
         break;
     case "D":
-        grade = "what did you do yesterday instead of studing?";
+        gradeComment  = "what did you do yesterday instead of studying?";
         break;
     default:
-        grade = "not found";
+        gradeComment  = "not found";
 }
-console.log(grade);
+console.log(gradeComment );
 
 //3
 let fruit = "Banana";
+let fruitCharacteristic;
 
 switch (fruit) {
     case "Banana":
-        fruit = "The banana is yellow";
+        fruitCharacteristic = "The banana is yellow";
         break;
     case "Apple":
-        fruit = "The apple is forbidden fruit";
+        fruitCharacteristic  = "The apple is the forbidden fruit";
         break;
     case "Orange":
-        fruit = "The orange needs the sun";
+        fruitCharacteristic  = "The orange needs the sun";
         break;
     case "Strawberry":
-        fruit = "The Strawsberry is aphrodisiac";
+        fruitCharacteristic  = "The Strawsberry is aphrodisiac";
         break;
     default:
-        fruit = "not found";
+        fruitCharacteristic  = "not found";
 }
-console.log(fruit);
+console.log(fruitCharacteristic );
 
 //4
 let number = 89
