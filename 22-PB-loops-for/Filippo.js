@@ -48,16 +48,13 @@ for (let m = 1, m1 = 1; m <= 1000; m++, m1++) {
     }
 };
 
-//8
+
 
 //4 bonus
 for (let b = 1; b <= 10; b++) {
-    console.log(b) 
+    console.log(b)
     for (let c = 2; c < 11; c++) {
         /// nested inside
-        console.log("bonus 4: "+ c*b);
+        console.log("bonus 4: " + c * b);
     }
 }
-
-//8
-
