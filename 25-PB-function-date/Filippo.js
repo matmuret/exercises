@@ -9,13 +9,14 @@ const event = (today, future) => {
     }
 }
 const future = new Date('Jun 10 2020');
+const today = new Date()
+event(today, future); 
 
-event(today, future);
+
 
 
 /*
 I was wondering.....
-
 const event = (future) => {
     let today = new Date();
     if (future > today) {
