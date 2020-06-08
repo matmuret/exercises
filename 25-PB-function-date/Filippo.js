@@ -1,4 +1,4 @@
-const event = (today, future) => {
+/* const event = (today, future) => {
     let day = future.getDate();
     let month = future.getMonth();
     let year = future.getFullYear();
@@ -10,13 +10,12 @@ const event = (today, future) => {
 }
 const future = new Date('Jun 10 2020');
 const today = new Date()
-event(today, future); 
+event(today, future);  */
 
 
 
 
-/*
-I was wondering.....
+
 const event = (future) => {
     let today = new Date();
     if (future > today) {
@@ -25,4 +24,4 @@ const event = (future) => {
         console.log(`select a future date!`);
     }
 }
-event('Jun 10 2020');*/
+event('Jun 10 2020');
