@@ -1,3 +1,5 @@
+'use strict';
+
 const findTheday = (date) => {
     const dayNumber = date.getDay();
     switch (dayNumber) {
@@ -22,6 +24,8 @@ const findTheday = (date) => {
         case 6:
             console.log("Its Saturday");
             break;
+        default:  
+        console.log("Its an error case! Something went wrong");
     }
 }
 const date = new Date('Jun 8 1984');
