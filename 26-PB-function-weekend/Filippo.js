@@ -2,31 +2,21 @@
 
 const findTheday = (date) => {
     const dayNumber = date.getDay();
-    switch (dayNumber) {
-        case 0:
-            console.log("Its Sunday!");
-            break; // MUST HAVE FOR ALL THE CASES NORMALLY 
-        case 1:
-            console.log("Its Monday");
-            break;
-        case 2:
-            console.log("Its Tuesday");
-            break;
-        case 3:
-            console.log("Its Wednesday");
-            break;
+    switch (dayNumber) {   
+        case 1:   
+        case 2:   
+        case 3:    
         case 4:
-            console.log("Its Thursday");
-            break;
         case 5:
-            console.log("Its Friday!");
+            console.log("Its a week day!");
             break;
         case 6:
-            console.log("Its Saturday");
+        case 0:
+                console.log("Its weekend!");
             break;
         default:  
         console.log("Its an error case! Something went wrong");
     }
 }
-const date = new Date('Jun 8 1984');
+const date = new Date('Jun 8 2020');
 findTheday(date)
