@@ -1,22 +1,28 @@
 "use strict";
 
 //1
+
 const exponential = (num1, num2) => {
-    console.log(num1 + " and " + num2 + " are " + typeof (num1, num2) + "s");
-    let mult = '';
-    for (let i = 1; i <= num2; i++) {
-        mult = mult + ' ' + num1 ** i;
+    if ((typeof num1 === "number") && (typeof num2 === "number")) {
+        let mult = '';
+        for (let i = 1; i <= num2; i++) {
+            mult = mult + ' ' + num1 ** i;
+
+        }
+        console.log(mult);
+    } else {
+        console.log("they are not numbers")
     }
-    console.log(mult);
 }
 exponential(3, 5)
 
 //2
 let myFav = "Mango"
-const myFavoriteFruit = (myfav) => {
-    console.log(`My favourite fruit is ${myFav}`)
+const myFavoriteFruit = (myFav) => {
+    myFav = "Mango";
+    console.log(`My favourite fruit is ${myFav}`);
 }
-myFavoriteFruit(myfav)
+myFavoriteFruit(myFav);
 
 //3
 const exponent = (num1, num2) => {
