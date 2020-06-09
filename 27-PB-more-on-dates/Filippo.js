@@ -1,3 +1,5 @@
+"use strict";
+
 const howManyDays = (date) => {
     const month = date.getMonth();
     const day = date.getDate();
@@ -10,7 +12,7 @@ const howManyDays = (date) => {
         case 9: // october
         case 11: // december
             console.log(31 - day);
-            break; 
+            break;
         case 1:
             console.log(28 - day);
             break;
@@ -21,7 +23,7 @@ const howManyDays = (date) => {
             console.log(30 - day);
             break;
         default:
-            console.log("Its an error case! Something went wrong"); 
+            console.log("Its an error case! Something went wrong");
     }
 }
 const date = new Date('1982-11-4');

@@ -18,6 +18,8 @@ multiplyTwoNumbersShortcut(50, 60);
 
 //4
 //1.4
+"use strict";
+
 function reminder(x, y) {
     console.log(x % y)
 }

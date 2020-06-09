@@ -1,3 +1,5 @@
+"use strict";
+ 
  const event = (today, future) => {
      let day = future.getDate();
      let month = future.getMonth();

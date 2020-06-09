@@ -1,3 +1,5 @@
+"use strict";
+
 //1
 const exponential = (num1, num2) => {
     console.log(num1 + " and " + num2 + " are " + typeof (num1, num2) + "s");
