@@ -112,7 +112,7 @@ Examples:
 * isPrime(9) ➞ false
 * isPrime(10) ➞ false
 
-**13. Validate Email.**
+**13. Validate Emainumberl.**
 Create a function that takes a string, checks if it's a valid email address, and then accordingly returns either true or false.
 
 * The string must contain an "@" character.
