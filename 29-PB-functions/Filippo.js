@@ -10,17 +10,19 @@ const addUp = (num) => {
     return add;
 };
 console.log(addUp(4));
+console.log(addUp(4));
+console.log(addUp(13)); 
+console.log(addUp(600));
 
 //2
 console.log("//2");
 const sumOfCubes = (num1 = 0, num2 = 0, num3 = 0) => num1 ** 3 + num2 ** 3 + num3 ** 3;
-console.log(sumOfCubes(2))
+console.log(sumOfCubes(2));
+console.log(sumOfCubes());
 
 //3
 console.log("//3");
-const dictionary = (string, word) => word.startsWith(string)
-
-console.log(dictionary("cia", "ciaone"));
+const dictionary = (string, word) => word.startsWith(string);
 
 /* const dictionary = (string, word) => {
     let myString = string
@@ -31,12 +33,13 @@ console.log(dictionary("cia", "ciaone"));
         console.log(false)
     };
     return;
-}
-dictionary("bia", "ciaone");
-const dictionaryReturn = dictionary("bia", "ciaone");
-dictionary("bu", "button");
-dictionary("tri", "triplet");
-dictionary("beau", "pastry"); */
+}*/
+
+console.log(dictionary("bia", "ciaone"));
+console.log(dictionary("bia", "ciaone"));
+console.log(dictionary("bu", "button"));
+console.log(dictionary("tri", "triplet"));
+console.log(dictionary("beau", "pastry")); 
 
 //4
 console.log("//4")
@@ -71,9 +74,10 @@ console.log(occurencesR)
 
 //6, 
 console.log("//6")
-const calculateBaseToExponent = (base, exponent) => base ** exponent;
-let calculateBaseToExponent2 = calculateBaseToExponent(5, 5);
-console.log(calculateBaseToExponent2)
+const calculateBaseToExponent = (base, exponent) => Math.pow(base, exponent) //base ** exponent;
+console.log(calculateBaseToExponent(5, 5)); 
+console.log(calculateBaseToExponent(10, 10)); 
+console.log(calculateBaseToExponent(3, 3));
 
 //7
 console.log("//7")
@@ -86,12 +90,16 @@ console.log("//8")
 const calcSupply = (age, dayAmmount) => (80 - age) * (365 * dayAmmount);
 const lifetimeSupply2 = calcSupply(25, 2);
 console.log("You will need " + lifetimeSupply2 + " bars of chocolate (2 a day) to last you til the age of 80.")
-
+const lifetimeSupply3 = calcSupply(40, 3);
+console.log("You will need " + lifetimeSupply3 + " bars of chocolate (2 a day) to last you til the age of 80.")
 
 //9
 console.log("//9")
-const isWaldoHere = (stringW) => stringW.includes("Waldo")
+const isWaldoHere = (stringW) => stringW.includes("Waldo");
 console.log(isWaldoHere("is there wal here ?"));
+console.log(isWaldoHere("I found you Waldo!"));
+console.log(isWaldoHere("is wally here?"));
+console.log(("waldo is here")); 
 
 //10
 console.log("//10");
