@@ -11,7 +11,7 @@ const addUp = (num) => {
 };
 console.log(addUp(4));
 console.log(addUp(4));
-console.log(addUp(13)); 
+console.log(addUp(13));
 console.log(addUp(600));
 
 //2
@@ -39,7 +39,7 @@ console.log(dictionary("bia", "ciaone"));
 console.log(dictionary("bia", "ciaone"));
 console.log(dictionary("bu", "button"));
 console.log(dictionary("tri", "triplet"));
-console.log(dictionary("beau", "pastry")); 
+console.log(dictionary("beau", "pastry"));
 
 //4
 console.log("//4")
@@ -75,8 +75,8 @@ console.log(occurencesR)
 //6, 
 console.log("//6")
 const calculateBaseToExponent = (base, exponent) => Math.pow(base, exponent) //base ** exponent;
-console.log(calculateBaseToExponent(5, 5)); 
-console.log(calculateBaseToExponent(10, 10)); 
+console.log(calculateBaseToExponent(5, 5));
+console.log(calculateBaseToExponent(10, 10));
 console.log(calculateBaseToExponent(3, 3));
 
 //7
@@ -99,7 +99,7 @@ const isWaldoHere = (stringW) => stringW.includes("Waldo");
 console.log(isWaldoHere("is there wal here ?"));
 console.log(isWaldoHere("I found you Waldo!"));
 console.log(isWaldoHere("is wally here?"));
-console.log(("waldo is here")); 
+console.log(("waldo is here"));
 
 //10
 console.log("//10");
