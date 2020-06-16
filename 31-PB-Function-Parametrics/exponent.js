@@ -2,11 +2,11 @@
 //
 // Example: Calling the function with 2 and 4 will return 8 (2 to the power of 4), If you call it with just 2, it should return 4 (2 to the power of 2).
 
-const exponent = (num, exp) => {
+const exponent = (num, exp = 2) => {
   let result = 1;
 
   for (let i = 0; i < exp; i++) {
-    result *= num;
+    result *= num; //wow I didn't know that!
   }
 
   return result;
