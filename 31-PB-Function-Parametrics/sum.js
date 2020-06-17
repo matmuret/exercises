@@ -3,9 +3,9 @@
 const sum = (...args) => {
     let add = 0
     for (let i = 0; i < args.length; i++) {
-        add += args[i]
+        add += args[i];
     }
-    return add
+    return add;
 };
 
 console.log(sum(1)); // -> 1

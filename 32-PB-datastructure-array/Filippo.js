@@ -2,7 +2,7 @@
 
 //1
 let myArray = ["Ciao", 6, 1, 0, true]
-console.log(myArray)
+console.log(myArray);
 
 
 //2
