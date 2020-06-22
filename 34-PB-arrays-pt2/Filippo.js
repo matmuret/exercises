@@ -2,16 +2,18 @@
 
 //1
 function findGreatest(arrayNum, n) {
+    let arrey2=[];
     for (let i = 0; i < arrayNum.length; i++) {
         if (arrayNum[i] > n) {
-            return (arrayNum[i] + " ");
+            arrey2.push(arrayNum[i]);
         }
     }
+    return arrey2;
 }
 
-console.log("//1 " + findGreatest([3, 4, 5], 4));
-console.log("//1 " + findGreatest([10, 20, 30], 12));
-console.log("//1 " + findGreatest([0, 10, 3], 4));
+console.log("//1 " , findGreatest([3, 4, 5], 4));
+console.log("//1 " , findGreatest([10, 20, 30], 12));
+console.log("//1 " , findGreatest([0, 10, 3], 4));
 
 //2
 //https://www.freecodecamp.org/news/three-ways-to-find-the-longest-word-in-a-string-in-javascript-a2fb04c9757c/
@@ -50,7 +52,7 @@ function longestWord(str) {
     return longestWord; // var longestWord = "jumped" 
     // longestWord.length => "jumped".length => 6
 }
-console.log("//2 " + longestWord("this is a web development course"));
+console.log("//2 " , longestWord("this is a web development course"));
 
 //3
 function reverse(n) {
@@ -58,7 +60,7 @@ function reverse(n) {
     return n.split("").reverse().join("");
 }
 
-console.log("//3 " + reverse(34532));
+console.log("//3 " , reverse(34532));
 
 //4
 // const vowels = ["a", "e", "i", "o", "u"];
@@ -84,7 +86,7 @@ function findVowels(text) {
     }
     return counter;
 }
-console.log("//4 " + findVowels("this is a string"));
+console.log("//4 " , findVowels("this is a string"));
 
 //5
 
@@ -117,9 +119,9 @@ function missingNums(nums) {
     }
     return missNum;
 }
-console.log("//5 " + missingNums([1, 2, 3, 4, 6, 7, 8, 9, 10]));
-console.log("//5 " + missingNums([7, 2, 3, 6, 5, 9, 1, 4, 8]));
-console.log("//5 " + missingNums([10, 5, 1, 2, 4, 6, 8, 3, 9]));
+console.log("//5 " , missingNums([1, 2, 3, 4, 6, 7, 8, 9, 10]));
+console.log("//5 " , missingNums([7, 2, 3, 6, 5, 9, 1, 4, 8]));
+console.log("//5 " , missingNums([10, 5, 1, 2, 4, 6, 8, 3, 9]));
 
 //6
 function sumOfCubes(nums) {
@@ -177,7 +179,7 @@ console.log("//8 ", evenNums(4)); //➞ [2, 4]
 console.log("//8 ", evenNums(2)); //➞ [2] 
 
 //9 bonus
-function alphaOrder(str); {
+function alphaOrder(str) {
     return str.split('').sort().join('');
 }
 
