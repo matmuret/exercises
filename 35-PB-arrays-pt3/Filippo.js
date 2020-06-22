@@ -80,18 +80,7 @@ console.log("//3 ", amplify(3)) // ➞ [1, 2, 3]
 console.log("//3 ", amplify(25)) // ➞ [1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]
 
 //4
-function unique(nums) {
-    let resoult = [];
-    for (let i = 0; i < nums.length; i++) {
-        resoult.splice(0, nums.length);
-        for (let j = 0; j < nums.length; j++) {
-            nums[j] === nums[i] ? resoult.push(nums[i]) : "";
-        }
-        if (nums.length === 1) {
-            return nums[i];
-        }
-    }
-}
+
 
 console.log("//3 ", unique([3, 3, 3, 7, 3, 3])) // ➞ 7
 console.log("//3 ", unique([0, 0, 0.77, 0, 0])) // ➞ 0.77
