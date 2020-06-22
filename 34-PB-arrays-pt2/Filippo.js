@@ -63,7 +63,6 @@ function reverse(n) {
 console.log("//3 " , reverse(34532));
 
 //4
-// const vowels = ["a", "e", "i", "o", "u"];
 
 function findVowels(text) {
     // Initialize counter
@@ -87,6 +86,9 @@ function findVowels(text) {
     return counter;
 }
 console.log("//4 " , findVowels("this is a string"));
+
+/* or const vowels=str.match(/[aeiou]/gi);
+return vowels.lenght;  */
 
 //5
 
@@ -149,10 +151,9 @@ function dictionary(init, str) {
     let myStr = [];
     for (let i = 0; i < str.length; i++) {
         if (str[i].startsWith(init) === true) {
-            /*  return */
             myStr.push(str[i]);
         }
-        return myStr
+        return myStr;
     }
 }
 
