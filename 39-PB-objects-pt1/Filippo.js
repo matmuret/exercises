@@ -49,9 +49,15 @@ let personTwo = {
     job: "driver",
     age: 20,
     city: "Paris",
-    method: function () {
-        return this.firstName + " " + this.lastName + " " + "is a " + this.age + " year old driver in " + this.city
-    }
+    //method inside the object:
+    /*  method: function () {
+         return this.firstName + " " + this.lastName + " " + "is a " + this.age + " year old driver in " + this.city
+     } */
+}
+//method outside the object:
+
+personTwo.method = function () {
+    return this.firstName + " " + this.lastName + " " + "is a " + this.age + " year old driver in " + this.city
 }
 console.log("//3 " + personTwo.method())
 
@@ -71,12 +77,21 @@ let objectToArray = {
     C: 3
 }
 
-let i = 0;
-
 function convertObjToArr(obj) {
-    console.log(Object.entries(obj)); //Calling entries, as shown here, will return [key, value] pairs, as the asker requested.
-    i++;
+    const result =[];
+    for (const item in obj){
+        let newArr=[]
+        newArr.push(item);
+        newArr.push(obj[item]);
+        result.push(newArr);
+    }
+    console.log(result)
 }
+//or
+/* function 
+    console.log(Object.entries(obj)); //Calling entries, as shown here, will return [key, value] pairs, as the asker requested.
+    
+} */
 convertObjToArr(objectToArray);
 
 /*  **2. List Properties.**
@@ -119,8 +134,7 @@ function margeFunc(obj1, obj2) {
         ...obj1,
         ...obj2
     };
-    console.log(merged)
-
-    /* console.log(obj1.merge(obj2)); */
+    console.log(merged);
+    //merged is now the union of obj1 and obj2. Properties in obj2 will overwrite those in obj1.
 }
 margeFunc(first, last);
