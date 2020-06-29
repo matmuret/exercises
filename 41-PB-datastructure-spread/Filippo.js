@@ -61,3 +61,21 @@ console.log("5.2 ", employee);
 employee.name = "Filippo";
 employee.role = "web Developer";
 console.log("5.3 ", employee)
+
+/* #### Bonus: 6.  Is the average a whole number?
+Create a function that takes 4 integers as parameters and returns true or false depending 
+on whether the average of all the arguments is a whole number or not.
+* Examples
+* isWhole(1, 2, 3, 4) ➞ false
+* isWhole(9, 2, 2, 5) ➞ false
+
+* Once you have created a function, pass in an array as an argument which contains four 
+elements - check if this method still outputs the correct result! */
+
+function isWhole(x, y, z, w) {
+    const average = (x + y + z + w) / 4;
+    return average === parseInt(average) /* ? true : false */
+}
+
+console.log(isWhole("//6 ", 1, 2, 3, 4)) // ➞ false
+console.log(isWhole("//6 ", 9, 2, 2, 5)) // ➞ false
