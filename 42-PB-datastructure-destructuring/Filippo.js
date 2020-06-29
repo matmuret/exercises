@@ -51,7 +51,7 @@ let name, greatestHits, nationality, genre
 
 } = {
     name: "Nirvana",
-    greatestHits: "Seattle rain",
+    greatestHits: "Nevermind",
     nationality: "American",
     genre: "grunge"
 });
