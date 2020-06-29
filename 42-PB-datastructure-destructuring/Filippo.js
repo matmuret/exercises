@@ -5,7 +5,7 @@ to the variables respectively: "banana", "cucumber", "bread", "cakes", "pizza"
 (assign the "bread", "cakes" and "pizza" to `food`). Use array destructuring assignment to 
 complete this task. */
 
-let fruit,vegetable, food;
+let fruit, vegetable, food;
 [fruit, vegetable, ...food] = ["banana", "cucumber", "bread", "cakes", "pizza"]
 console.log(fruit)
 console.log(vegetable)
@@ -16,13 +16,16 @@ console.log(food)
 `fran: "witch"`.   
 Assign each key pair value to corresponding variable. Print out the object values.  */
 
-let Andrea, Filippo,Vincenzo;
+let Andrea, Filippo, Vincenzo;
 ({
-    Andrea, Filippo,Vincenzo
-    
-} = {Andrea: "Pinocchio",
+    Andrea,
+    Filippo,
+    Vincenzo
+
+} = {
+    Andrea: "Pinocchio",
     Filippo: "Arlecchino",
-    Vincenzo:"Pulcinella"
+    Vincenzo: "Pulcinella"
 });
 
 console.log(Andrea);
@@ -38,17 +41,20 @@ greatest hit, nationality, genre etc.
 `Regina Spektor is a American-Russian singer/songwriter and pianist. 
 The musician sings indie-pop and their greatest hit is "Us"`. */
 
-let name, greatestHits, nationality, genre 
+let name, greatestHits, nationality, genre
 
 ({
-    name, greatestHits, nationality, genre
-    
-} = {name: "Nirvana",
+    name,
+    greatestHits,
+    nationality,
+    genre
+
+} = {
+    name: "Nirvana",
     greatestHits: "Seattle rain",
-    nationality: "American",  
-    genre:"grunge"
+    nationality: "American",
+    genre: "grunge"
 });
 
 console.log(`${name} is an ${nationality} band. The musicians sing ${genre} 
 and their greatest hit is ${greatestHits}`);
-
