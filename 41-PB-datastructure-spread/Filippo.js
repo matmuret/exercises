@@ -1,3 +1,5 @@
+"use strict";
+
 /* #### 1. Combining Arrays 
 * Create two arrays. e.g. euroCountries and asianCountries. Add asianCountries items 
 to the end of euroCountries array. 
@@ -52,15 +54,15 @@ const job = {
 let personTwo = {
     ...person
 }
-console.log("5.1 ", personTwo)
+console.log("//5.1 ", personTwo)
 let employee = {
     ...person,
     ...job
 };
-console.log("5.2 ", employee);
+console.log("//5.2 ", employee);
 employee.name = "Filippo";
 employee.role = "web Developer";
-console.log("5.3 ", employee)
+console.log("//5.3 ", employee)
 
 /* #### Bonus: 6.  Is the average a whole number?
 Create a function that takes 4 integers as parameters and returns true or false depending 
@@ -74,8 +76,12 @@ elements - check if this method still outputs the correct result! */
 
 function isWhole(x, y, z, w) {
     const average = (x + y + z + w) / 4;
-    return average === parseInt(average) /* ? true : false */
+    /* return average === parseInt(average) */ /* ? true : false */
+    return Number.isInteger(average);/* ? true : false */
+
 }
 
-console.log(isWhole("//6 ", 1, 2, 3, 4)) // ➞ false
-console.log(isWhole("//6 ", 9, 2, 2, 5)) // ➞ false
+console.log("//6 ",isWhole( 1, 2, 3, 4)) // ➞ false
+console.log("//6 ",isWhole( 9, 2, 2, 5)) // ➞ false
+console.log("//6 ",isWhole( 1, 1, 1, 1))
+console.log("//6 ",isWhole( ...[1, 1, 1, 1]))
