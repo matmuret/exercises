@@ -10,6 +10,7 @@ let fruit, vegetable, food;
 console.log(fruit)
 console.log(vegetable)
 console.log(food)
+
 /* 
 #### 2.Object Destructuring
 * Create an object which contains key pair values of names and the respective halloween costume e.g. 
@@ -22,7 +23,7 @@ let Andrea, Filippo, Vincenzo;
     Filippo,
     Vincenzo
 
-} = {
+} =  {
     Andrea: "Pinocchio",
     Filippo: "Arlecchino",
     Vincenzo: "Pulcinella"
@@ -31,6 +32,7 @@ let Andrea, Filippo, Vincenzo;
 console.log(Andrea);
 console.log(Filippo);
 console.log(Vincenzo);
+
 
 /* #### 3. Parameters: Object Destructuring 
 * Create an object with band/musician details e.g. name of the band/musician, 
@@ -58,3 +60,22 @@ let name, greatestHits, nationality, genre
 
 console.log(`${name} is an ${nationality} band. The musicians sing ${genre} 
 and their greatest hit is ${greatestHits}`);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+const musicBand = {
+    bandName: `Queen`,
+    nationality: `England`,
+    genre: `rock`,
+    greatestHit: `Bohemian Rhapsody`,
+};
+
+function printBand({
+    bandName,
+    nationality,
+    genre,
+    greatestHit
+}) {
+    return `${bandName} are a ${genre} band from ${nationality}, and their greatest hit is ${greatestHit}.`;
+}
+console.log(printBand(musicBand)); 
