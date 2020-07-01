@@ -82,14 +82,14 @@ console.log('//6 ', squareRoot([3, 45, 6, 56, 7, 9]));
 
 /* Bonus 1*/
 const ingredients = ["cow", "potatos", "chicken", "corn"];
-const food = ["hamburger", "fries", "chicken wings", "popcorn"]
+const food = ["hamburger", "fries", "chicken wings", "pop corn"]
 
 const cooking = ingredients.map((value) => value = food)
 console.log("Bonus 1", cooking);
 
 /* Bonus 2*/
 
-const veggieFood = ["fries", "popcorn"];
+const veggieFood = ["fries", "pop corn"];
 
 const veggie = food.filter((value) => value.includes("fries") || value.includes("pop corn"))// doesn't work with .includes(...veggieFood)
 console.log("Bonus 2", veggie);
