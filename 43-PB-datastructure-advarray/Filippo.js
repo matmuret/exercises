@@ -99,11 +99,14 @@ console.log("Bonus 1", food);
 
 /* Bonus 2*/
 
-const veggie = food.filter((value) => value.includes("fries") || value.includes("pop corn")) // doesn't work with .includes(...veggieFood)
-console.log("Bonus 2", veggie);
+
+const isVegetarian = (arr) => arr.includes("fries") || arr.includes("pop corn")
+const veggiFood = food.filter(isVegetarian);
+console.log("Bonus 2", veggiFood);
+
 
 /* Bonus 3*/
-const shitting = food.reduce((previousValue, /* currentValue */ ) => {
-    return previousValue = "shit"
-});
-console.log("Bonus 3", shitting);
+
+const eat = (arr) =>  arr = "shit"
+const result = food.reduce(eat);
+console.log("Bonus 3", result);
