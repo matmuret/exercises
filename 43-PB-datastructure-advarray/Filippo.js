@@ -82,18 +82,25 @@ console.log('//6 ', squareRoot([3, 45, 6, 56, 7, 9]));
 
 /* Bonus 1*/
 const ingredients = ["cow", "potatos", "chicken", "corn"];
-const food = ["hamburger", "fries", "chicken wings", "pop corn"]
 
-const cooking = ingredients.map((value) => value = food)
-console.log("Bonus 1", cooking);
+function cook(value) {
+    if (value === "cow") {
+        return "hamburger";
+    } else if (value === "potatos") {
+        return "fries";
+    } else if (value === "chicken") {
+        return "chicken wings";
+    } else if (value === "corn") {
+        return "pop corn";
+    } else return "error";
+}
+const food = ingredients.map(cook);
+console.log("Bonus 1", food);
 
 /* Bonus 2*/
 
-const veggieFood = ["fries", "pop corn"];
-
-const veggie = food.filter((value) => value.includes("fries") || value.includes("pop corn"))// doesn't work with .includes(...veggieFood)
+const veggie = food.filter((value) => value.includes("fries") || value.includes("pop corn")) // doesn't work with .includes(...veggieFood)
 console.log("Bonus 2", veggie);
-
 
 /* Bonus 3*/
 const shitting = food.reduce((previousValue, /* currentValue */ ) => {
