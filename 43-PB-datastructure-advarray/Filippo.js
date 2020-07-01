@@ -107,6 +107,6 @@ console.log("Bonus 2", veggiFood);
 
 /* Bonus 3*/
 
-const eat = (arr) =>  arr = "shit"
+const eat = (arr) => arr = "shit"
 const result = food.reduce(eat);
 console.log("Bonus 3", result);
