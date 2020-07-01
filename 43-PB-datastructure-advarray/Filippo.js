@@ -24,13 +24,13 @@ for (let key in orders) {
 const ordersArray = []
 for (const obj of orders) {
     for (const key in obj) {
-        
+
         ordersArray.push(obj[key]);
     }
 }
 const total = ordersArray.reduce((previousValue, currentValue) => {
-    return previousValue + currentValue/* ["amount"] */; //without ["ammount"] and ...0) it works with the for loop
-},/* 0 */);
+    return previousValue + currentValue /* ["amount"] */ ; //without ["ammount"] and ...0) it works with the for loop
+}, /* 0 */ );
 console.log("//1 ", total);
 
 /* #### 2. Increment by 1
@@ -47,18 +47,18 @@ console.log("//2 ", increment);
 * Create a function called filterEvens that filters an array and only return even numbers. 
 The function should take an array of numbers as an argument, and should not use a loop. */
 
-const filterEvens = (arr) => arr.filter((value,/* index,array */) =>  value %2===0)
+const filterEvens = (arr) => arr.filter((value, /* index,array */ ) => value % 2 === 0)
 
 
-console.log("//5 ", filterEvens([1,2,3,11,12,13])); //returns [2,12]
-console.log("//5 ", filterEvens([22,2,31,110,6,13])); //returns [22,2,110,6]
+console.log("//5 ", filterEvens([1, 2, 3, 11, 12, 13])); //returns [2,12]
+console.log("//5 ", filterEvens([22, 2, 31, 110, 6, 13])); //returns [22,2,110,6]
 
 /* #### 4. Filter Friends
-* Given an array, create a function which filters array based on a search query. */
+ * Given an array, create a function which filters array based on a search query. */
 
 
 const friends = ["rika", "jenna", "bleda", "oliver", "itamar"];
-const filterItems = (fri,letters) => fri.filter((value,/* index,array */) =>  value.toLowerCase().includes(letters))
+const filterItems = (fri, letters) => fri.filter((value, /* index,array */ ) => value.toLowerCase().includes(letters))
 
 console.log("//4 ", filterItems(friends, 'ka')); // ["Rika"];
 console.log("//4 ", filterItems(friends, 'e')); // ["Jenna", "Bleda", "Oliver"];
@@ -78,3 +78,25 @@ console.log("//5 ", sum([6, 7, 7])); //returns 20
 const squareRoot = (arr) => arr.map((value) => Math.sqrt(value));
 
 console.log('//6 ', squareRoot([3, 45, 6, 56, 7, 9]));
+
+
+/* Bonus 1*/
+const ingredients = ["cow", "potatos", "chicken", "corn"];
+const food = ["hamburger", "fries", "chicken wings", "popcorn"]
+
+const cooking = ingredients.map((value) => value = food)
+console.log("Bonus 1", cooking);
+
+/* Bonus 2*/
+
+const veggieFood = ["fries", "popcorn"];
+
+const veggie = food.filter((value) => value.includes("fries") || value.includes("pop corn"))// doesn't work with .includes(...veggieFood)
+console.log("Bonus 2", veggie);
+
+
+/* Bonus 3*/
+const shitting = food.reduce((previousValue, /* currentValue */ ) => {
+    return previousValue = "shit"
+});
+console.log("Bonus 3", shitting);
