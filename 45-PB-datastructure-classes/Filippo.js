@@ -33,7 +33,8 @@ class CylinderVolume {
         this.h=h
         this.p=p
         this.calcVolume = function () {
-            return (r*r*p)*h
+            let result=(r*r*p)*h
+            return result.toFixed(4) 
         }
 
     }
