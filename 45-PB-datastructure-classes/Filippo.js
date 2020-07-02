@@ -6,9 +6,9 @@ So, for example, if John is 19 years old,
 then the function describe of his object will return "John, 19 years old". */
 
 class Person {
-    constructor(name,age){
-        this.name=name
-        this.age=age
+    constructor(name, age) {
+        this.name = name
+        this.age = age
         this.greeting = function () {
             return `"${name}, ${age} years old"`;
         }
@@ -16,10 +16,10 @@ class Person {
     }
 
 }
-const filippo = new Person("Filippo",37);
+const filippo = new Person("Filippo", 37);
 console.log(filippo);
-person=new Person("Filippo",37);
-console.log("// 1",person.greeting())
+person = new Person("Filippo", 37);
+console.log("// 1", person.greeting())
 
 /* #### 2. Volume
 * Write a JavaScript program to get the volume of a cylinder 
@@ -28,17 +28,17 @@ with four decimal places using a class.
 radius and h is the height of the cylinder.
 */
 class CylinderVolume {
-    constructor(r,h ,p=3.14){
-        this.r=r
-        this.h=h
-        this.p=p
+    constructor(r, h /* ,p=3.14 */ ) {
+        this.r = r
+        this.h = h
+        /* this.p=p */
         this.calcVolume = function () {
-            let result=(r*r*p)*h
-            return result.toFixed(4) 
+            let result = r * r * Math.PI * h
+            return result.toFixed(4)
         }
 
     }
 
 }
-volumeOne=new CylinderVolume(5,5);
-console.log("// 2",volumeOne.calcVolume())
+volumeOne = new CylinderVolume(5, 5);
+console.log("// 2", volumeOne.calcVolume())
