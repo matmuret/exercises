@@ -10,6 +10,15 @@ const newBoard = board.map(function(value){
 })
 console.log("1 ",newBoard)
 
+
+function arrayValues(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            console.log(arr[i][j]);
+        }
+    }
+}
+arrayValues(board);
 /* #### 2. 
 * 2.1 Create a doggo object. Add name and breed as properties of the object.
 * 2.2 Create an array within the doggo object named favorite foods and add 
@@ -33,6 +42,19 @@ const printAll = doggo.favoriteFoods.map(function(value){
     return value
 })
 console.log("2.5 ",printAll)
+
+const doggo2 = {
+    name: 'Doggo',
+    breed: '',
+    favoriteFoods: ['burger', 'pizza', 'pasta'],
+}
+doggo2.foods = function () {
+    for (const item of this.favoriteFoods) {
+        console.log('2.4', item);
+    }
+}
+console.log('2.3', doggo2.favoriteFoods[1]);
+doggo2.foods();
 
 /* #### 3. 
 * 3.1 Create an object called recipes.
